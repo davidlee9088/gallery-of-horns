@@ -10,10 +10,11 @@ class Main extends React.Component {
       return<Hornedbeast
           id={ata._id}
           img={ata.image_url}
-          descripition={ata.description}
+          description={ata.description}
           keyword={ata.keyword}
           title={ata.title}
           key = {idx}
+          horns={ata.horns}
           handleShowModal={this.props.handleShowModal}
 
           
