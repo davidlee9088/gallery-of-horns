@@ -1,6 +1,5 @@
 import React from "react";
 import Hornedbeast from "./Hornedbeast";
-import Hornedbeast2 from "./Hornedbeast2";
 import "./Main.css";
 
 class Main extends React.Component {
