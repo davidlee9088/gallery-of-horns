@@ -20,7 +20,7 @@ this.setState({
   
 handleAlertClick = () => {
   console.log('ih');
-  this.props.handleShowModal(this.props.img,this.props.title,this.props.description)
+  this.props.handleShowModal(this.props.img,this.props.title,this.props.description,this.props.horns)
 }
 
 

@@ -17,6 +17,10 @@ class SelectedBeast extends React.Component {
           <p>
             {this.props.description}
           </p>
+          <p>
+          How many horns are there?:
+          {this.props.horns}
+          </p>
         </Modal.Body>
 
       </Modal>
